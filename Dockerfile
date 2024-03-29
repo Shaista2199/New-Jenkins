@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8081
-ADD target/SpringBootAssignment.jar SpringBootApplication.jar
-ENTRYPOINT ["java","-jar","/SpringBootApplication.jar"]
+ADD target/SpringBootAssignment.jar springBootApplication.jar
+ENTRYPOINT ["java","-jar","/springBootApplication.jar"]
